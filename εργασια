@@ -1,0 +1,13 @@
+from io import BytesIO
+from PIL import Image, ImageTk #για την εικονα
+from py_edamam import PyEdamam # για την πρόσβαση των θρεπτικών στοιχείων των φαγητών
+import tkinter as tk
+
+WINDOW_TITLE ='Recipe App'
+
+root = tk.Tk()
+root.geometry("400x100")
+
+welcome_label = tk.Label(root, text="Welcome to My Application!", font=("Arial", 20))
+welcome_label.pack(side="top", fill="both", pady=10)
+root.mainloop()
