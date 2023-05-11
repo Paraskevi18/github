@@ -1,13 +1,604 @@
-from io import BytesIO
-from PIL import Image, ImageTk #για την εικονα
-from py_edamam import PyEdamam # για την πρόσβαση των θρεπτικών στοιχείων των φαγητών
-import tkinter as tk
+ ## ΣΥΝΤΑΓΗ 37 ##
 
-WINDOW_TITLE ='Recipe App'
+ if (var56.get() and var47.get() and var8.get()):
+            rec37_button = Button(rec_list, text="Pasta with cheese and pepper", fg="#3034b0", font=('ComicSans', 11, 'bold'), command=lambda: rec37.tkraise())
+            rec37_button.pack()
+            lb_rec37tittle = Label(rec37, text="Pasta with cheese and pepper\n\n", fg="#3034b0", font=('ComicSans', '30', 'bold'))
+            lb_rec37tittle.pack()
+            lb_rec37 = Message(rec37, fg="#3034b0", font=('ComicSans', '12', 'bold'))
+lb_rec37.config(text="Ingredients\n 200g spaghetti \n25g butter \n1 tsp freshly ground pepper \n50g cheese, finely grated\nPreparation\nCook the pasta for 2 mins less than pack instructions state, in salted boiling water.\n Meanwhile, melt the butter in a medium frying pan over a low heat, then add the ground pepper and toast for a few minutes.\nDrain the pasta, keeping 200ml of the pasta water.\n Tip the pasta and 100ml of the pasta water into the pan with the butter and pepper. \nToss briefly, then scatter over the cheese evenly, but don’t stir – wait for the cheese to melt for 30 seconds\n,then once melted, toss everything well, and stir together. \nThis prevents the cheese from clumping or going stringy and makes a smooth, shiny sauce.\nAdd a splash more pasta water if you need to, to loosen the sauce and coat the pasta.\nEnjoy!")
+ lb_rec37.pack()
 
-root = tk.Tk()
-root.geometry("400x100")
+ rec37backbtn = Button(rec37, text="Back", fg="#3034b0", command=lambda: rec_list.tkraise(),
+                       font=(' ComicSans ', '10', 'bold'))
+ rec37backbtn.place(y=10, x=50)
 
-welcome_label = tk.Label(root, text="Welcome to My Application!", font=("Arial", 20))
-welcome_label.pack(side="top", fill="both", pady=10)
-root.mainloop()
+
+## ΣΥΝΤΑΓΗ 38##
+ if (var11.get() and var6.get() and var17.get() and var 52.get() and var8.get() and var.47()):
+     rec38_button = Button(rec_list, text="scrambled eggs with carrot", fg="#3034b0", font=('ComicSans', 11, 'bold'),
+                           command=lambda: rec38.tkraise())
+     rec38_button.pack()
+     lb_rec38tittle = Label(rec38, text="scrambled eggs with carrot \n\n", fg="#3034b0",
+                            font=('ComicSans', '30', 'bold'))
+     lb_rec38tittle.pack()
+     lb_rec38 = Message(rec38, fg="#3034b0", font=('ComicSans', '12', 'bold'))
+     lb_rec38.config(
+         text="Ingredients\n 4 eggs\n1 tbsp carrot puree\n50 gr. ham\n1 small tomato\n2 tbsp grated cheese\n A little fresh pepper\nA little olive oil\nPreparation\nBoil the carrots and puree them in the blender.\n Beat the eggs in a bowl.\n Add the carrot puree, ham, tomato, parmesan and fresh pepper and mix.\n Put a little oil in a pan and pour the omelette into the pan.\n Let it cook on medium heat.\nEnjoy!")
+     lb_rec38.pack()
+
+     rec38backbtn = Button(rec38, text="Back", fg="#3034b0", command=lambda: rec_list.tkraise(),
+                           font=(' ComicSans ', '10', 'bold'))
+     rec38backbtn.place(y=10, x=50)
+
+
+     ##ΣΥΝΤΑΓΗ 39##
+     if (var52.get() and var47.get() and var51.get() and var29.get()):
+         rec39_button = Button(rec_list, text="VEGETERIAN PIZZA ", fg="#3034b0", font=('ComicSans', 11, 'bold'),
+                              command=lambda: rec39.tkraise())
+         rec39_button.pack()
+         lb_rec39tittle = Label(rec39, text=" VEGETERIAN PIZZA \n\n", fg="#3034b0", font=('ComicSans', '30', 'bold'))
+         lb_rec39tittle.pack()
+         lb_rec39 = Message(rec39, fg="#3034b0", font=('ComicSans', '12', 'bold'))
+         lb_rec39.config(
+             text="Ingredients\n  4 tortillas \n100g sliced mushrooms\n 2 peppers \n tomato \nPreparation\n Preheat the oven to 200°C. Put the peppers and mushrooms in a pan, sprinkle with a little olive oil, salt and bake them for 20 minutes in the oven.\nSpread the tomato as a sauce and vegetables on the Tortillas, sprinkle them with a little olive oil and bake them in the oven for 5-6 minutes.\nEnjoy!")
+         lb_rec39.pack()
+
+         rec39backbtn = Button(rec39, text="Back", fg="#3034b0", command=lambda: rec_list.tkraise(),
+                              font=(' ComicSans ', '10', 'bold'))
+         rec39backbtn.place(y=10, x=50)
+
+         ##ΣΥΝΤΑΓΗ 40##
+         if (var11.get() and var12.get()and var13.get() and var14.get()):
+             rec40_button = Button(rec_list, text="CHEESE PIE", fg="#3034b0", font=('ComicSans', 11, 'bold'),
+                                  command=lambda: rec40.tkraise())
+             rec40_button.pack()
+             lb_rec40tittle = Label(rec40, text=" CHEESE PIE\n\n", fg="#3034b0",
+                                   font=('ComicSans', '30', 'bold'))
+             lb_rec40tittle.pack()
+             lb_rec40 = Message(rec40, fg="#3034b0", font=('ComicSans', '12', 'bold'))
+             lb_rec40.config(
+                 text="Ingredients \n 5 Eggs\n 300g  Yogurt\nAbout 3/4 kilogram crumbled Feta Cheese\nFlour 1 package\nPreparation\n Whisk the eggs with a wire whisk and add the yogurt. Mix well until the mixture is homogeneous and add the crumbled feta cheese.\n Mix again a little and add the self-rising flour, stirring until it is incorporated.Pour the mixture into a well-oiled large round baking dish, 38 cm in diameter, and bake the cheese pie at 180 degrees Celsius for 45 minutes, depending on your oven.\nEnjoy!")
+             lb_rec40.pack()
+
+             rec40backbtn = Button(rec40, text="Back", fg="#3034b0", command=lambda: rec_list.tkraise(),
+                                  font=(' ComicSans ', '10', 'bold'))
+             rec40backbtn.place(y=10, x=50)
+
+
+             ##ΣΥΝΤΑΓΗ 41##
+             if (var9.get() and var12.get()):
+                 rec41_button = Button(rec_list, text="CINNAMON BISCUIT", fg="#3034b0",
+                                      font=('ComicSans', 11, 'bold'), command=lambda: rec41.tkraise())
+                 rec41_button.pack()
+                 lb_rec41tittle = Label(rec41, text=" CINNAMON BISCUIT\n\n", fg="#3034b0",
+                                       font=('ComicSans', '30', 'bold'))
+                 lb_rec41tittle.pack()
+                 lb_rec41 = Message(rec41, fg="#3034b0", font=('ComicSans', '12', 'bold'))
+                 lb_rec2.config(
+                     text="Ingredients\n 400 g plain flour \n125 g powdered sugar\n 250 g butter at room temperature\n 2 tsp cinnamon powder\nPreparation.\nIn a bowl, we pour room temperature butter together with powdered sugar and cinnamon, and mix with a whisk until it becomes a paste. \nWe gradually add all-purpose flour and mix until we have a pliable dough.We measure balls of 30 grams each and press them lightly with the palm of our hand.\n We place them on a baking sheet lined with parchment paper and optionally sprinkle them with cinnamon sugar on top.\n We bake in a preheated oven, at 180 degrees Celsius, in the air setting, for 10-12 minutes.\nEnjoy!")
+                 lb_rec41.pack()
+
+                 rec41backbtn = Button(rec41, text="Back", fg="#3034b0", command=lambda: rec_list.tkraise(),
+                                      font=(' ComicSans ', '10', 'bold'))
+                 rec41backbtn.place(y=10, x=50)
+
+                 ## ΣΥΝΤΑΓΗ 42##
+                 if (var8.get() and va28.get() and var56.get()):
+                     rec42_button = Button(rec_list, text="SOUFFLE", fg="#3034b0",
+                                          font=('ComicSans', 11, 'bold'), command=lambda: rec42.tkraise())
+                     rec42_button.pack()
+                     lb_rec42tittle = Label(rec42, text=" SOUFFLE\n\n", fg="#3034b0",
+                                           font=('ComicSans', '30', 'bold'))
+                     lb_rec42tittle.pack()
+                     lb_rec42 = Message(rec42, fg="#3034b0", font=('ComicSans', '12', 'bold'))
+                     lb_rec42.config(
+                         text="Ingredients \n 500gr of pasta \n 2 small cartons of milk (or 400 ml) \n 350 grams of cheese \n 1 Parisian toast bread (cut into small pieces\nPreparation\nWe boil the penne and spread half of them in a greased or buttered baking dish. On top, we sprinkle half of the grated cheese and half of the diced parmesan.\n Then, we add the remaining penne and on top the remaining parmesan and cheese.\n Finally, we pour the cream on top and bake for 10-15 minutes in a preheated oven at 220 degrees Celsius until golden brown.\nEnjoy!")
+                     lb_rec42.pack()
+
+                     rec42backbtn = Button(rec42, text="Back", fg="#3034b0", command=lambda: rec_list.tkraise(),
+                                          font=(' ComicSans ', '10', 'bold'))
+                     rec42backbtn.place(y=10, x=50)
+
+                     ##ΣΥΝΤΑΓΗ 43##
+                     if (var6.get() and var12.get()):
+                         rec43_button = Button(rec_list, text="CARROT TRUFFLES ", fg="#3034b0",
+                                              font=('ComicSans', 11, 'bold'), command=lambda: rec43.tkraise())
+                         rec43_button.pack()
+                         lb_rec43tittle = Label(rec43, text=" CARROT TRUFFLES \n\n", fg="#3034b0",
+                                               font=('ComicSans', '30', 'bold'))
+                         lb_rec2tittle.pack()
+                         lb_rec43 = Message(rec43, fg="#3034b0", font=('ComicSans', '12', 'bold'))
+                         lb_rec43.config(
+                             text="Ingredients\n  Approximately 1 kilogram of carrots  \n 1 and 1/2 cups powdered sugar  \n   1 cup shredded coconut and extra for sprinkling  \n2 tablespoons corn flour (cornstarch)\nPreparation\nClean and boil the carrots. Puree them in a blender. We need 2 cups of carrot puree.\n Add the powdered sugar and shredded coconut and mix.\n Put the mixture in a clean, cotton towel and squeeze it as much as possible, keeping the juice for the cream.\nPlace the mixture in the fridge for about an hour to firm up.\n Shape the truffles to the desired size and coat them with shredded coconut.\nIn a saucepan, pour the juice that we have kept (about 1 cup).\n Add the corn flour and stir over low heat until it thickens.\nEnjoy!")
+                         lb_rec43.pack()
+
+                         rec43backbtn = Button(rec43, text="Back", fg="#3034b0", command=lambda: rec_list.tkraise(),
+                                              font=(' ComicSans ', '10', 'bold'))
+                         rec43backbtn.place(y=10, x=50)
+
+                         ##ΣΥΝΤΑΓΗ 44##
+                         if (var14.get() and var12.get() and var22.get()):
+                             rec44_button = Button(rec_list, text="Croissants with sausage", fg="#3034b0",
+                                                  font=('ComicSans', 11, 'bold'), command=lambda: re44.tkraise())
+                             rec44_button.pack()
+                             lb_rec44tittle = Label(rec44, text=" Croissants with sausage\n\n", fg="#3034b0",
+                                                   font=('ComicSans', '30', 'bold'))
+                             lb_rec44tittle.pack()
+                             lb_rec44 = Message(rec44, fg="#3034b0", font=('ComicSans', '12', 'bold'))
+                             lb_rec44.config(
+                                 text="Ingredients\n 250gr of butter\n 1 small container of yogurt\n 1 cup of flour\n  1/2 tsp salt\nSome ketchup\nPreparation\nAll the ingredients should be at room temperature. We mix them all together and divide into balls. We open each ball into a circular sheet the size of a dinner plate and cut into 8 pieces like a pizza.\n We place a small sausage on each piece and roll it up. We brush them with a little beaten egg on top and bake at 180 degrees Celsius until golden brown. We serve them with ketchup. \nEnjoy!")
+                             lb_rec44.pack()
+
+                             rec44backbtn = Button(rec44, text="Back", fg="#3034b0", command=lambda: rec_list.tkraise(),
+                                                  font=(' ComicSans ', '10', 'bold'))
+                             rec44backbtn.place(y=10, x=50)
+
+## ΣΥΝΤΑΓΗ 45##
+ if (var10.get() and var32.get() and var12.get()and var11.get()):
+     rec45_button = Button(rec_list, text="NUTELLA CAKE", fg="#3034b0", font=('ComicSans', 11, 'bold'),
+                          command=lambda: rec45.tkraise())
+     rec45_button.pack()
+     lb_rec45tittle = Label(rec45, text=" NUTELLA CAKE\n\n", fg="#3034b0", font=('ComicSans', '30', 'bold'))
+     lb_rec45tittle.pack()
+     lb_rec45 = Message(rec45, fg="#3034b0", font=('ComicSans', '12', 'bold'))
+     lb_rec45.config(
+         text="Ingredients \n 720 gr. Nutella\n 130 gr. all-purpose flour\n 4 eggs\n 100 gr. chocolate \nPreparation\nPreheat the oven to 180 degrees Celsius on the resistances and butter and sprinkle with cocoa a rectangular baking dish with dimensions 20×30 cm. \nSprinkle the bottom of the dish with cocoa.In a large bowl, mix together the Nutella, all-purpose flour, and eggs with a wire whisk until well combined and all lumps from the flour have dissolved. Finally, add the chocolate chips and stir until fully incorporated into the mixture.\nPour the mixture into the baking dish and bake on the lower rack for 30-40 minutes or until a toothpick inserted in the center comes out with only a few crumbs attached. Do not overbake and let it dry out. Allow the dessert to cool for a little while, and then cut it into small square pieces.\nEnjoy!")
+     lb_rec45.pack()
+
+     rec45backbtn = Button(rec45, text="Back", fg="#3034b0", command=lambda: rec_list.tkraise(),
+                          font=(' ComicSans ', '10', 'bold'))
+     rec45backbtn.place(y=10, x=50)
+
+     ## ΣΥΝΤΑΓΗ 46##
+     if (var12.get() and var11.get() and var9.get()):
+         rec46_button = Button(rec_list, text="CHURROS", fg="#3034b0", font=('ComicSans', 11, 'bold'),
+                              command=lambda: rec46.tkraise())
+         rec46_button.pack()
+         lb_rec46tittle = Label(rec46, text="CHURROS\n\n", fg="#3034b0", font=('ComicSans', '30', 'bold'))
+         lb_rec46tittle.pack()
+         lb_rec46 = Message(rec46, fg="#3034b0", font=('ComicSans', '12', 'bold'))
+         lb_rec46.config(
+             text="Ingredients\n 250 gr. water\n 15 gr. sugar\n 175 gr. all-purpose flour\n 1 pinch of salt\n1 egg\n cinnamon \nPreparation\nWe boil water with sugar, then remove it from heat and add flour and salt. We mix until a soft dough is formed and add the egg. We continue mixing and transfer the dough into a pastry bag with a wide, serrated tip.\n If we don't have one, it's okay, we can use a spoon and form round "churros," similar to donuts.We add plenty of oil to a small pot or deep frying pan and place it on heat.\n Once the oil is hot, we form small "churros" about 7cm long with the pastry bag or scissors to cut the dough. We fry them for 3-4 minutes, turning them on both sides, until they turn golden and crispy.\n We remove them from the pan and place them on paper towels to drain. Then we dip them in granulated sugar. Optionally, we can sprinkle them with cinnamon..\nEnjoy!")
+         lb_rec46.pack()
+
+         rec46backbtn = Button(rec46, text="Back", fg="#3034b0", command=lambda: rec_list.tkraise(),
+                              font=(' ComicSans ', '10', 'bold'))
+         rec46backbtn.place(y=10, x=50)
+
+         ## ΣΥΝΤΑΓΗ 47##
+         if (var12.get() and var28.get()):
+             rec47_button = Button(rec_list, text="ICE CREAM IN 5 MINUTES", fg="#3034b0", font=('ComicSans', 11, 'bold'),
+                                  command=lambda: rec47.tkraise())
+             rec47_button.pack()
+             lb_rec47tittle = Label(rec47, text=" ICE CREAM IN 5 MINUTES\n\n", fg="#3034b0",
+                                   font=('ComicSans', '30', 'bold'))
+             lb_rec47tittle.pack()
+             lb_rec47 = Message(rec2, fg="#3034b0", font=('ComicSans', '12', 'bold'))
+             lb_rec47.config(
+                 text="Ingredients \n1 cup heavy cream (you can use milk as well)\n 2 tablespoons sugar\n 1/2 teaspoon vanilla extract (you can add any flavor you like)\n 3/4 cup sea salt\nPreparation\n We put the cream or milk together with the cocoa and sugar in a plastic bag. We mix the mixture until the cocoa and sugar dissolve and we close the bag tightly with a rubber band or knot.\n Then, we take a larger plastic bag and put ice, two tablespoons of salt and the first bag with the milk mixture. We add some more ice and we close the second bag.\n We shake the bag for 3 minutes and we open it once we see that the mixture has thickened and turned into ice cream (if it hasn't thickened enough, we shake it a bit more)! We serve in a bowl!\nEnjoy!")
+             lb_rec47.pack()
+
+             rec47backbtn = Button(rec47, text="Back", fg="#3034b0", command=lambda: rec_list.tkraise(),
+                                  font=(' ComicSans ', '10', 'bold'))
+             rec47backbtn.place(y=10, x=50)
+
+             ## ΣΥΝΤΑΓΗ48##
+             if (var11.get() and var12.get() and var8.get()):
+                 rec48_button = Button(rec_list, text="PANCAKES", fg="#3034b0",
+                                      font=('ComicSans', 11, 'bold'), command=lambda: rec48.tkraise())
+                 rec48_button.pack()
+                 lb_rec48tittle = Label(rec48, text=" PANCAKES\n\n", fg="#3034b0",
+                                       font=('ComicSans', '30', 'bold'))
+                 lb_rec48tittle.pack()
+                 lb_rec48 = Message(rec48, fg="#3034b0", font=('ComicSans', '12', 'bold'))
+                 lb_rec48.config(
+                     text="Ingredients\n500 gr all-purpose flour\n 1 egg \nwater\n a pinch of salt\n cheese\nPreparation\nin a bowl, beat the egg. add about a glass of flour, add water until you have a thick paste, add salt, mix very well, so that it doesn't have lumps.\nToast the feta cheese in thick pieces, about a cup of tea, and add it to the paste.Heat the oil and add the batter spoonful by spoonful.\nLet it brown on one side and turn it over.\nEnjoy!")
+                 lb_rec48.pack()
+
+                 rec48backbtn = Button(rec48, text="Back", fg="#3034b0", command=lambda: rec_list.tkraise(),
+                                      font=(' ComicSans ', '10', 'bold'))
+                 rec48backbtn.place(y=10, x=50)
+
+                 ##ΣΥΝΤΑΓΗ 49##
+                 if (var3.get()):
+                     rec49_button = Button(rec_list, text="BANANAS TRUFFLES", fg="#3034b0",
+                                          font=('ComicSans', 11, 'bold'), command=lambda: rec49.tkraise())
+                     rec49_button.pack()
+                     lb_rec49tittle = Label(rec49, text=" BANANAS TRUFFLES\n\n", fg="#3034b0",
+                                           font=('ComicSans', '30', 'bold'))
+                     lb_rec49tittle.pack()
+                     lb_rec49 = Message(rec49, fg="#3034b0", font=('ComicSans', '12', 'bold'))
+                     lb_rec49.config(
+                         text="Ingredients \n1 packet of biscuits(optional)\n 200g butter\n 200g vanilla (optional)\n 1 banana\n 250g chocolate\nPreparation\n Beat the butter in a mixer until it becomes soft. Add the vanilla and continue mixing. \nRemove from the mixer and stir in the diced banana, and 1/2 of the cookies, broken up with a rolling pin, into the cream.Spoon the mixture onto a baking sheet covered with parchment paper and freeze in the freezer.\n At the same time, melt the chocolate in a bain marie. Shape the now frozen chocolates into rounds. \n Spread chocolate with one hand and "roll" in the remaining crushed biscuit with the other. Keep in the refrigerator.\nEnjoy!")
+                     lb_rec49.pack()
+
+                     rec49backbtn = Button(rec49, text="Back", fg="#3034b0", command=lambda: rec_list.tkraise(),
+                                          font=(' ComicSans ', '10', 'bold'))
+                     rec49backbtn.place(y=10, x=50)
+
+                     ##ΣΥΝΤΑΓΗ 50##
+                     if (var28.get() and var32.get() and var10.get()):
+                         rec50_button = Button(rec_list, text="Chocolate chips with nutella", fg="#3034b0",
+                                              font=('ComicSans', 11, 'bold'), command=lambda: rec50.tkraise())
+                         rec50_button.pack()
+                         lb_rec50tittle = Label(rec50, text=" Chocolate chips with nutella\n\n", fg="#3034b0",
+                                               font=('ComicSans', '30', 'bold'))
+                         lb_rec50tittle.pack()
+                         lb_rec50 = Message(rec50, fg="#3034b0", font=('ComicSans', '12', 'bold'))
+                         lb_rec50.config(
+                             text="Ingredients\n Milk 397 g (1 package)\n Butter 110 g. \n Couverture 250 g. finely chopped or kakao\n 300 g. nutella\nPreparation\nPut some butter in a 20×20 cm pyrex dish and line it with parchment paper, making sure to cover both the bottom and the sides of the dish.\n Place all the ingredients in a small saucepan and heat over medium-low heat, stirring occasionally.\nOnce the butter and chocolate have melted and all the ingredients are well combined, remove the pan from the heat and pour the mixture into the pyrex.\nFlatten the surface with the back of a spoon and wait a few minutes for it to cool. Place it in the refrigerator to firm up and set.\nOnce the fudge is ready, remove the parchment paper and cut it into rectangular chocolates.\nEnjoy!")
+                         lb_rec50.pack()
+
+                         rec50backbtn = Button(rec50, text="Back", fg="#3034b0", command=lambda: rec_list.tkraise(),
+                                              font=(' ComicSans ', '10', 'bold'))
+                         rec50backbtn.place(y=10, x=50)
+
+                         ##ΣΥΝΤΑΓΗ 51##
+                         if (var10.get() and var19.get()):
+                             rec51_button = Button(rec_list, text="HOMEMADE CANDIES WITH CHOCOLATE AND HONEY", fg="#3034b0",
+                                                  font=('ComicSans', 11, 'bold'),
+                                                  command=lambda: rec51.tkraise())
+                             rec51_button.pack()
+                             lb_rec51tittle = Label(rec51, text=" HOMEMADE CANDIES WITH CHOCOLATE AND HONEY\n\n", fg="#3034b0",
+                                                   font=('ComicSans', '30', 'bold'))
+                             lb_rec51tittle.pack()
+                             lb_rec51 = Message(rec51, fg="#3034b0", font=('ComicSans', '12', 'bold'))
+                             lb_rec51.config(
+                                 text="Ingredients \n Sugar 250 g. \n  250 g chocolate\n Butter 250 g butter \n 100 g of honey \n Preparation\n Grate the chocolate and put it in a saucepan with the butter, sugar and honey. Stir with a wooden spoon and bring to the boil for 8 minutes. \n Spread the mixture on marble. Cut it into squares after it has cooled.\nEnjoy!")
+                             lb_rec51.pack()
+
+                             rec51backbtn = Button(rec51, text="Back", fg="#3034b0", command=lambda: rec_list.tkraise(),
+                                                  font=(' ComicSans ', '10', 'bold'))
+                             rec51backbtn.place(y=10, x=50)
+
+                             ##ΣΥΝΤΑΓΗ 52##
+                             if (var7.get() and var37.get()and var52.get()and var41.get()):
+                                 rec52_button = Button(rec_list, text="chicken wings with tomato", fg="#3034b0",
+                                                      font=('ComicSans', 11, 'bold'),
+                                                      command=lambda: rec52.tkraise())
+                                 rec52_button.pack()
+                                 lb_rec52tittle = Label(rec52, text=" chicken wings with tomato\n\n", fg="#3034b0",
+                                                       font=('ComicSans', '30', 'bold'))
+                                 lb_rec52tittle.pack()
+                                 lb_rec52 = Message(rec52, fg="#3034b0", font=('ComicSans', '12', 'bold'))
+                                 lb_rec52.config(
+                                     text="Ingredients\n f1 kilo of chicken wings\n 1 medium onion, finely chopped \n2 tomatoes cut into thin slices\n 1/2 cup olive oil\n salt, pepper\nPreparation\nIn a large frying pan, heat the olive oil and sauté the wings in two batches (to fit you) until golden on all sides. Remove them from the pan and transfer them to a platter.\n Then lightly sauté the chopped onion in the same oil until translucent, stirring frequently.\n Return the wings to the pan, add the tomato slices, salt and pepper to taste.\nTop up the liquid with about half a cup of water, cover with a lid and cook for 40'-45' until the food is still with its salsa. Add a little more water if necessary.\nEnjoy!")
+                                 lb_rec52.pack()
+
+                                 rec25backbtn = Button(rec52, text="Back", fg="#3034b0",
+                                                      command=lambda: rec_list.tkraise(),
+                                                      font=(' ComicSans ', '10', 'bold'))
+                                 rec52backbtn.place(y=10, x=50)
+
+
+                                 ##ΣΥΝΤΑΓΗ 53##
+                                 if (var11.get() and var48.get()):
+                                     rec53_button = Button(rec_list, text="French pastry", fg="#3034b0",
+                                                          font=('ComicSans', 11, 'bold'),
+                                                          command=lambda: rec53.tkraise())
+                                     rec53_button.pack()
+                                     lb_rec53tittle = Label(rec53, text=" French pastry\n\n", fg="#3034b0",
+                                                           font=('ComicSans', '30', 'bold'))
+                                     lb_rec53tittle.pack()
+                                     lb_rec53 = Message(rec53, fg="#3034b0", font=('ComicSans', '12', 'bold'))
+                                     lb_rec53.config(
+                                         text="Ingredients\n  450-500 gr crust (1 package) or a simple flour to do the pastry\n 1 packet (250 g) of butter or margarine\n 1 can of sweetened milk\n 5 eggs\n water\n powdered sugar and cinnamon\nPreparation\nIf you don’t have 1 package of crust you can replace with flour and water.You should mix well and after wait for 3 hours.\n Preheat the oven to 200 °C. Melt the butter or margarine. Butter and fold the sheets like pleats and place them parallel to each other in a rectangular, also buttered, baking tray.\n Bake at 180 °C until golden brown.Meanwhile, beat the sweetened milk, 5 eggs and 2 vanilla pods until they become a uniform mixture.\n Remove the baking tray and pour the milk-egg mixture over the baked sheets.\n Put the baking tray back in the oven and bake at 180-200 °C for another 20 minutes. Remove from the oven, leave for 5 minutes and sprinkle with icing sugar and a little cinnamon.\nEnjoy!")
+                                     lb_rec53.pack()
+
+                                     rec53backbtn = Button(rec53, text="Back", fg="#3034b0",
+                                                          command=lambda: rec_list.tkraise(),
+                                                          font=(' ComicSans ', '10', 'bold'))
+                                     rec53backbtn.place(y=10, x=50)
+
+                                     ## ΣΥΝΤΑΓΗ 54##
+                                     if (var10.get() and var58.get()var40.get()):
+                                         rec54_button = Button(rec_list, text=" chocolate Flapjacks", fg="#3034b0",
+                                                              font=('ComicSans', 11, 'bold'),
+                                                              command=lambda: rec54.tkraise())
+                                         rec54_button.pack()
+                                         lb_rec54tittle = Label(rec54, text="  chocolate Flapjacks\n\n", fg="#3034b0",
+                                                               font=('ComicSans', '30', 'bold'))
+                                         lb_rec54tittle.pack()
+                                         lb_rec54 = Message(rec54, fg="#3034b0", font=('ComicSans', '12', 'bold'))
+                                         lb_rec54.config(
+                                             text="Ingredients \n 200g butter, cut into chunks\n 100g light brown soft sugar\n 40g strawberries\n 300g rolled oats\nPreparation\nHeat the oven to 160ºC fan/gas 4. In a large pan, melt the butter and sugar over a low-medium heat. Once melted, take the pan off the heat and stir in the oats until completely coated with the butter mixture.\n Spoon into the tin, then smooth the surface with the back of your spoon to level.Bake for 25 minutes until golden brown. \n Leave to cool in the tin. After 5-10 minutes, cut into even squares, then leave to cool completely in the tin. If you don’t remember to cut the squares before they cool, don’t worry,\n they’re still soft enough to cut later – they just might be slightly more crumbly around the edges.After serve as a tops the strawberries\n To make chocolate flapjacks, melt 150-200g milk, dark, white (or a combination of milk and dark) chocolate in a bowl set over a pan of barely simmering water, or in the microwave on medium for short 10-15 second bursts. \n Once melted, spoon the chocolate over the cut, cooled flapjack. Leave to set, then cut again.\nEnjoy!")
+                                         lb_rec54.pack()
+
+                                         rec54backbtn = Button(rec54, text="Back", fg="#3034b0",
+                                                              command=lambda: rec_list.tkraise(),
+                                                              font=(' ComicSans ', '10', 'bold'))
+                                         rec54backbtn.place(y=10, x=50)
+
+                                         ##ΣΥΝΤΑΓΗ 55##
+                                         if (var19.get() and var28.get()and var14.get()and var40.get()):
+                                             rec55_button = Button(rec_list, text="porridge", fg="#3034b0",
+                                                                  font=('ComicSans', 11, 'bold'),
+                                                                  command=lambda: rec55.tkraise())
+                                             rec55_button.pack()
+                                             lb_rec55tittle = Label(rec55, text=" porridge\n\n",
+                                                                   fg="#3034b0",
+                                                                   font=('ComicSans', '30', 'bold'))
+                                             lb_rec55tittle.pack()
+                                             lb_rec55 = Message(rec2, fg="#3034b0", font=('ComicSans', '12', 'bold'))
+                                             lb_rec55.config(
+                                                 text="Ingredients\n 50g porridge oats\n350ml milk or water, or a mixture of the two\n Greek yogurt, thinned with a little milk and clear honey, to serve\n 10g honey\nPreparation\nPut 50g porridge oats in a saucepan, pour in 350ml milk or water and sprinkle in a pinch of salt. \nBring to the boil and simmer for 4-5 minutes, stirring from time to time and watching carefully that it doesn’t stick to the bottom of the pan.\nOr you can try this in a microwave. Mix the porridge oats, milk or water and a pinch of salt in a large microwaveproof bowl, then microwave on High for 5 minutes, stirring halfway through. Leave to stand for 2 minutes before eating.\nTo serve, pour into bowls, spoon Greek yogurt, thinned with a little milk, on top and drizzle with honey.\nEnjoy!")
+                                             lb_rec55.pack()
+
+                                             rec55backbtn = Button(rec55, text="Back", fg="#3034b0",
+                                                                  command=lambda: rec_list.tkraise(),
+                                                                  font=(' ComicSans ', '10', 'bold'))
+                                             rec55backbtn.place(y=10, x=50)
+
+                                             ##ΣΥΝΤΑΓΗ 56##
+                                             if (var1.get() and var9.get()and var40.get()):
+                                                 rec56_button = Button(rec_list, text=" Oat apple pie",
+                                                                      fg="#3034b0",
+                                                                      font=('ComicSans', 11, 'bold'),
+                                                                      command=lambda: rec56.tkraise())
+                                                 rec56_button.pack()
+                                                 lb_rec56tittle = Label(rec56, text="  Oat apple pie\n\n",
+                                                                       fg="#3034b0",
+                                                                       font=('ComicSans', '30', 'bold'))
+                                                 lb_rec56tittle.pack()
+                                                 lb_rec56 = Message(rec56, fg="#3034b0", font=('ComicSans', '12', 'bold'))
+                                                 lb_rec56.config(
+                                                     text="Ingredients\n  6 red apples\n 4 tablespoons butter \n 100 g oats\n 2 tsp cinnamon (optional)\nPreparation\nMelt the butter and mix it with the oats.Peel the apples and cut them into pieces\n Mix the apples with the oatmeal-butter mixture and transfer to a non-stick pan.Optionally, sprinkle with cinnamon \nBake in a well preheated oven at 180°C for 40 minutes.\nEnjoy!")
+                                                 lb_rec56.pack()
+
+                                                 rec56backbtn = Button(rec56, text="Back", fg="#3034b0",
+                                                                      command=lambda: rec_list.tkraise(),
+                                                                      font=(' ComicSans ', '10', 'bold'))
+                                                 rec56backbtn.place(y=10, x=50)
+
+                         ## ΣΥΝΤΑΓΗ 57##
+                     if (var11.get() and var12.get()and var9.get()and var3.get()and var10.get()):
+                         rec57_button = Button(rec_list, text="Banana and chocolate muffins", fg="#3034b0",
+                                              font=('ComicSans', 11, 'bold'),
+                                              command=lambda: rec57.tkraise())
+                         rec57_button.pack()
+                         lb_rec57tittle = Label(rec57, text=" Banana and chocolate muffins\n\n", fg="#3034b0",
+                                               font=('ComicSans', '30', 'bold'))
+                         lb_rec57tittle.pack()
+                         lb_rec57 = Message(rec57, fg="#3034b0", font=('ComicSans', '12', 'bold'))
+                         lb_rec57.config(
+                             text="Ingredients\n 190 g flour \n 1/2 tsp. cinnamon \n 150 g sugar\n 125 g melted butter \n2 eggs \n 4 bananas  \n70 g chocolate\nPreparation\nIn a bowl, mix the eggs with the melted butter. Add the bananas at the end and mix them well with a whisk.\n In another bowl, add the flour, sugar and cinnamon and mix.Pour the dry mixture into the wet mixture and mix lightly with a spoon.\n Fill a baking tray with buttered muffin tins and place a piece of chocolate (about 5 g) in the centre of each one.\n You don't need to flatten the dough because it will sit as the cake bakes.\nBake in a preheated oven at 180°C for 25 to 30 minutes.\nEnjoy!")
+                         lb_rec57.pack()
+
+                         rec57backbtn = Button(rec57, text="Back", fg="#3034b0", command=lambda: rec_list.tkraise(),
+                                              font=(' ComicSans ', '10', 'bold'))
+                         rec57backbtn.place(y=10, x=50)
+
+                         ## ΣΥΝΤΑΓΗ 58##
+                         if (var52.get() and var53.get()and var56.get()and var24.get()and var27.get()):
+                             rec58_button = Button(rec_list, text="Cold salad with pasta and tuna", fg="#3034b0",
+                                                  font=('ComicSans', 11, 'bold'),
+                                                  command=lambda: rec58.tkraise())
+                             rec58_button.pack()
+                             lb_rec58tittle = Label(rec58, text=" Cold salad with pasta and tuna\n\n", fg="#3034b0",
+                                                   font=('ComicSans', '30', 'bold'))
+                             lb_rec58tittle.pack()
+                             lb_rec58 = Message(rec58, fg="#3034b0", font=('ComicSans', '12', 'bold'))
+                             lb_rec58.config(
+                                 text="Ingredients \n 2 cups of penne\n 1 can of tuna\n1 tomato, diced\n Mayonnaise \n A little lemon juice\n 1 teaspoon of dill (dried) and some thyme\nPreparation\nBoil the pasta in salted water until al dente.\nThen mix the penne and tuna with the mayonnaise. Add enough mayonnaise so that the salad looks wet but doesn't completely cover the ingredients.\n Add the spices, salt and pepper, dill and thyme. At the end, add some lemon juice and then put the salad in the fridge for several hours.\n Before serving, check if you need a little more mayonnaise. \nEnjoy!")
+                             lb_rec58.pack()
+
+                             rec58backbtn = Button(rec58, text="Back", fg="#3034b0", command=lambda: rec_list.tkraise(),
+                                                  font=(' ComicSans ', '10', 'bold'))
+                             rec58backbtn.place(y=10, x=50)
+
+                             ## ΣΥΝΤΑΓΗ 59##
+                             if (var41.get() and var52.get()and var56.get()and var8.get()and var53.get()):
+                                 rec59_button = Button(rec_list, text="Spaghetti with red tuna sauce", fg="#3034b0",
+                                                      font=('ComicSans', 11, 'bold'),
+                                                      command=lambda: rec59.tkraise())
+                                 rec59_button.pack()
+                                 lb_rec59tittle = Label(rec59, text=" Spaghetti with red tuna sauce\n\n", fg="#3034b0",
+                                                       font=('ComicSans', '30', 'bold'))
+                                 lb_rec59tittle.pack()
+                                 lb_rec59 = Message(rec59, fg="#3034b0", font=('ComicSans', '12', 'bold'))
+                                 lb_rec59.config(
+                                     text="Ingredients\n 2-3 tablespoons of olive oil\n 2 chopped tomatoes for the red sauce\n ¼ teaspoon oregano\n Salt and pepper\n 1 can of tuna, from which you have removed the liquid\n 1 teaspoon of capers\n 250 g of pasta\n 1 tbsp grated yellow cheese \nPreparation\nPour the olive oil into a pan and add the chopped tomatoes, oregano and salt and pepper and wait until it has simmered for about 10 minutes.\n Then add the tuna and capers and leave them to "thicken" with the sauce.\nIn the meantime, boil the pasta in salted water and remove the pasta when it is tender or al dente, depending on your preference.\nOnce drained, pour over the red sauce, sprinkle with grated cheese and enjoy!")
+                                 lb_rec59.pack()
+
+                                 rec59backbtn = Button(rec59, text="Back", fg="#3034b0",
+                                                      command=lambda: rec_list.tkraise(),
+                                                      font=(' ComicSans ', '10', 'bold'))
+                                 rec59backbtn.place(y=10, x=50)
+
+                                 ## ΣΥΝΤΑΓΗ 60##
+                                 if (var53.get() and var37.get()and var27.get()and var24.get()and var18.get()):
+                                     rec60_button = Button(rec_list, text="Sandwich with tuna", fg="#3034b0",
+                                                          font=('ComicSans', 11, 'bold'),
+                                                          command=lambda: rec60.tkraise())
+                                     rec60_button.pack()
+                                     lb_rec60tittle = Label(rec60, text=" Sandwich with tuna\n\n", fg="#3034b0",
+                                                           font=('ComicSans', '30', 'bold'))
+                                     lb_rec60tittle.pack()
+                                     lb_rec60 = Message(rec60, fg="#3034b0", font=('ComicSans', '12', 'bold'))
+                                     lb_rec60.config(
+                                         text="Ingredients\n (ingredients for 4 sandwiches)\n2 cans of tuna in water\n 1 small onion\n Half a cup of mayonnaise\n 1 teaspoon of lemon juice\n Salt and pepper\n 8 slices of wholemeal toast or other bread of your choice\nPreparation\nDrain the tuna to remove the water and then chop the onion. In a bowl, mix the tuna, onion, mayonnaise, lemon juice and salt and pepper.\n Divide the mixture over 4 slices and then cover with the remaining slices.\nEnjoy!")
+                                     lb_rec60.pack()
+
+                                     rec2backbtn = Button(rec60, text="Back", fg="#3034b0",
+                                                          command=lambda: rec_list.tkraise(),
+                                                          font=(' ComicSans ', '10', 'bold'))
+                                     rec60backbtn.place(y=10, x=50)
+
+                                     ##ΣΥΝΤΑΓΗ 61##
+                                     if (var12.get() and var9.get()and var36.get()):
+                                         rec61_button = Button(rec_list, text="Cinnamon Cookies", fg="#3034b0",
+                                                              font=('ComicSans', 11, 'bold'),
+                                                              command=lambda: rec61.tkraise())
+                                         rec61_button.pack()
+                                         lb_rec61tittle = Label(rec61, text=" Cinnamon Cookies\n\n", fg="#3034b0",
+                                                               font=('ComicSans', '30', 'bold'))
+                                         lb_rec61tittle.pack()
+                                         lb_rec61 = Message(rec61, fg="#3034b0", font=('ComicSans', '12', 'bold'))
+                                         lb_rec61.config(text="Ingredients \n for 50 cookies \n200 ml oil\n 500 g flour \n 4-5 tbsp brown sugar\n1 tbsp. cinnamon\nPreparation\nPreheat the oven to 200° C, on the resistance.In a bowl, add the oil and flour and mix until you have a homogeneous dough.\n In a small bowl, mix the sugar and cinnamon.Shape small sticks, about the size of your finger, and close them like a ring.\nDip both sides of the cookies in the sugar and cinnamon mixture and arrange them on your baking sheet lined with non-stick paper.\nBake for 20 minutes at 200° C on the resistance for 20 minutes.\nEnjoy!")
+                                         lb_rec61.pack()
+
+                                         rec61backbtn = Button(rec61, text="Back", fg="#3034b0",
+                                                              command=lambda: rec_list.tkraise(),
+                                                              font=(' ComicSans ', '10', 'bold'))
+                                         rec61backbtn.place(y=10, x=50)
+
+                                         ##ΣΥΝΤΑΓΗ 62##
+                                         if (var33.get() and var37.get()and var6.get()and var47.get()and var20.get()):
+                                             rec62_button = Button(rec_list, text="Noodles with Vegetables", fg="#3034b0",
+                                                                  font=('ComicSans', 11, 'bold'),
+                                                                  command=lambda: rec62.tkraise())
+                                             rec62_button.pack()
+                                             lb_rec62tittle = Label(rec62, text=" Noodles with Vegetables\n\n",
+                                                                   fg="#3034b0",
+                                                                   font=('ComicSans', '30', 'bold'))
+                                             lb_rec62tittle.pack()
+                                             lb_rec62 = Message(rec62, fg="#3034b0", font=('ComicSans', '12', 'bold'))
+                                             lb_rec62.config(
+                                                 text="Ingredients \n 300 g noodles\n1 medium onion\n 2 medium carrots\n 1 green pepper\n 80 ml sweet chilli sauce\nsalt\nPreparation\nCut the onion in half and then into thin slices. Cut the carrots and peppers into very thin sticks about 3 cm long.\nPlace a non-stick pan on your fire and add the olive oil. Once the pan is hot, add the onion and bring it 2-3 rounds until it has wilted a little.\nThen add all the other vegetables and sauté for 6-7 minutes until they soften a little.Meanwhile, in a saucepan add water to boil the noodles according to the package. \nAdd a little salt if you like. Once the water boils, add the noodles and let them boil for 2-3 minutes. Then remove them from the heat, add cold water to the pot and drain well.\nPour the sweet chili sauce into the vegetables and stir.\nAdd the noodles and mix all the ingredients together.\nEnjoy!")
+                                             lb_rec62.pack()
+
+                                             rec62backbtn = Button(rec62, text="Back", fg="#3034b0",
+                                                                  command=lambda: rec_list.tkraise(),
+                                                                  font=(' ComicSans ', '10', 'bold'))
+                                             rec62backbtn.place(y=10, x=50)
+
+
+                                     ##ΣΥΝΤΑΓΗ 63##
+                         if (var56.get() and var47.get() and var52.get()and var31.get()and var50.get()):
+                             rec63_button = Button(rec_list, text="pasta with sausage", fg="#3034b0",
+                                                  font=('ComicSans', 11, 'bold'), command=lambda: re63.tkraise())
+                             rec63_button.pack()
+                             lb_rec63tittle = Label(rec63, text=" pasta with sausage\n\n", fg="#3034b0",
+                                                   font=('ComicSans', '30', 'bold'))
+                             lb_rec63tittle.pack()
+                             lb_rec63 = Message(rec63, fg="#3034b0", font=('ComicSans', '12', 'bold'))
+                             lb_rec63.config(
+                                 text="Ingredients\n500 g pasta \n 5 sausages \n 1 red pepper\n 70 g tomatoes\n 1 litre of boiling water\n 1 tablespoon of mustard\nsalt, pepper \nPreparation\n Cut the sausages into thin slices and place them in a wide pot.\n Sauté for a few minutes until they brown and release their fat.\nAdd the pepper and continue to sauté.\nMash the tomatoes and stir.\nAdd the hot water and then add the pasta.\n Add the mustard, season with salt and pepper and let it simmer until the pasta is done.\nEnjoy!")
+                             lb_rec63.pack()
+
+                             rec63backbtn = Button(rec63, text="Back", fg="#3034b0", command=lambda: rec_list.tkraise(),
+                                                  font=(' ComicSans ', '10', 'bold'))
+                             rec63backbtn.place(y=10, x=50)
+
+                             ##ΣΥΝΤΑΓΗ 64##
+                             if (var45.get() and var12.get() and var17.get()and var36.get()and var16.get()):
+                                 rec64_button = Button(rec_list, text=" potatoes with ham and Cheese Bechamel", fg="#3034b0",
+                                                       font=('ComicSans', 11, 'bold'), command=lambda: re64.tkraise())
+                                 rec64_button.pack()
+                                 lb_rec64tittle = Label(rec64, text="potatoes with ham and Cheese Bechamel\n\n", fg="#3034b0",
+                                                        font=('ComicSans', '30', 'bold'))
+                                 lb_rec64tittle.pack()
+                                 lb_rec64 = Message(rec64, fg="#3034b0", font=('ComicSans', '12', 'bold'))
+                                 lb_rec64.config(
+                                     text="Ingredients\n 1200 g potatoes\n 500 g bourbon\n 2 tablespoons olive oil\n salt and pepper\n sweet paprika\n 50 g butter\n 50 g flour\n2 tbsp curry\n 500 ml vegetable stock or water\n200 g gouda cheese\nthyme\nPreparation\nWash the potatoes and boil them with their skins for 20 minutes in salted water.\nFry the ham in hot oil.Add salt, pepper and paprika.\nMelt the butter and add the flour. Continue with the curry and then add the water, mustard, thyme and half the cheese.\nIf necessary, add a little more salt and pepper and stir to make a homogeneous cream.\n Drain the potatoes, "scare" them with cold water, peel and slice them in a pyrex. Put the ham , the cream and the rest of the cheese on top of the potatoes.\nBake in a preheated oven at 225°C until golden brown.\nEnjoy!")
+                                 lb_rec64.pack()
+
+                                 rec64backbtn = Button(rec64, text="Back", fg="#3034b0",
+                                                       command=lambda: rec_list.tkraise(),
+                                                       font=(' ComicSans ', '10', 'bold'))
+                                 rec64backbtn.place(y=10, x=50)
+
+                                 ##ΣΥΝΤΑΓΗ 65##
+                                 if (var11.get() and var12.get()and var28.get()and var48.get() and var3.get()):
+                                     rec65_button = Button(rec_list, text="homemade pancakes", fg="#3034b0",
+                                                           font=('ComicSans', 11, 'bold'),
+                                                           command=lambda: re65.tkraise())
+                                     rec65_button.pack()
+                                     lb_rec65tittle = Label(rec65, text=" homemade pancakes\n\n", fg="#3034b0",
+                                                            font=('ComicSans', '30', 'bold'))
+                                     lb_rec65tittle.pack()
+                                     lb_rec65 = Message(rec65, fg="#3034b0", font=('ComicSans', '12', 'bold'))
+                                     lb_rec65.config(
+                                         text="Ingredients\n2 eggs\n1 cup milk\n 1/2 tsp. salt\n 1 cup of flour\n 2 tablespoons melted butter\npeanut butter\n banana\nPreparation\nBeat the eggs well, add the milk, salt, flour and butter. Cover and leave for 30 minutes.\n In a non-stick pan, put a small amount of the dough (enough to cover the pan), and once it is cooked from the bottom, turn it over.\n Leave it for a while on the other side and take it out of the pan.\n Fill with peanut butter and banana \nEnjoy!")
+                                     lb_rec65.pack()
+
+                                     rec65backbtn = Button(rec65, text="Back", fg="#3034b0",
+                                                           command=lambda: rec_list.tkraise(),
+                                                           font=(' ComicSans ', '10', 'bold'))
+                                     rec65backbtn.place(y=10, x=50)
+
+                                     ##ΣΥΝΤΑΓΗ 66##
+                                     if (var53.get() and var27.get() and var31.get()and var24.get()and var61.get()):
+                                         rec66_button = Button(rec_list, text="tuna salad", fg="#3034b0",
+                                                               font=('ComicSans', 11, 'bold'),
+                                                               command=lambda: re66.tkraise())
+                                         rec66_button.pack()
+                                         lb_rec66tittle = Label(rec66, text=" tuna salad\n\n",
+                                                                fg="#3034b0",
+                                                                font=('ComicSans', '30', 'bold'))
+                                         lb_rec66tittle.pack()
+                                         lb_rec66 = Message(rec66, fg="#3034b0", font=('ComicSans', '12', 'bold'))
+                                         lb_rec66.config(
+                                             text="Ingredients\n 1 pack tuna in drained water\n 1 small cucumber, grated\nA little parsley\n 1 tbsp mayonnaise\n 1 tbsp mustard\n A little lemon juice\nSalt\nPepper\nPreparation\nFirst, grate the cucumber on a coarse grater and squeeze it.Alternatively, chop it.\nDrain the tuna and break it with a fork.\n Put it in a bowl and add the cucumber.\n Put salt and pepper and add mayonnaise, mustard and lemon juice. \nand we mix\nEnjoy!")
+                                         lb_rec66.pack()
+
+                                         rec66backbtn = Button(rec66, text="Back", fg="#3034b0",
+                                                               command=lambda: rec_list.tkraise(),
+                                                               font=(' ComicSans ', '10', 'bold'))
+                                         rec66backbtn.place(y=10, x=50)
+
+                                         ##ΣΥΝΤΑΓΗ 67##
+                                         if (var28.get() and var12.get() and var36.get()and var19.get()):
+                                             rec67_button = Button(rec_list, text="donuts",
+                                                                   fg="#3034b0",
+                                                                   font=('ComicSans', 11, 'bold'),
+                                                                   command=lambda: re67.tkraise())
+                                             rec67_button.pack()
+                                             lb_rec67tittle = Label(rec67, text=" donuts\n\n",
+                                                                    fg="#3034b0",
+                                                                    font=('ComicSans', '30', 'bold'))
+                                             lb_rec67tittle.pack()
+                                             lb_rec67 = Message(rec67, fg="#3034b0", font=('ComicSans', '12', 'bold'))
+                                             lb_rec67.config(
+                                                 text="Ingredients\n 250 ml fresh milk\n250 gr. self raising flour \n 1 1/2 tbsp. oil and extra for frying\n honey or chocolates\nPreparation\nIn a bowl, mix the milk and the sunflower oil. Slowly add the flour, stirring at the same time until a thick paste is formed.\nCover the bowl with a towel and let the mixture rise for about 1 hour.\nHeat sunflower oil in a pan over medium heat. We will need enough sunflower oil to fry the donuts properly.\n Check if the sunflower oil is hot enough by pouring a small amount of the doughnut mixture.\n If the mixture remains on the surface, the sunflower oil is ready to fry the donuts.We take a quantity of the doughnut mixture by hand. We press so that the mixture comes out of the thumb\n. Cut the loukuma with a wet spoon and drop it into the hot sunflower oil.\nFry for a few minutes on both sides until golden brown.\n Remove them with a slotted spoon and place them on a plate lined with absorbent paper to absorb the excess oil.\n Then transfer them to a plate and cover with honey or chocolate. \nEnjoy!")
+                                             lb_rec67.pack()
+
+                                             rec67backbtn = Button(rec67, text="Back", fg="#3034b0",
+                                                                   command=lambda: rec_list.tkraise(),
+                                                                   font=(' ComicSans ', '10', 'bold'))
+                                             rec67backbtn.place(y=10, x=50)
+
+                                             ##ΣΥΝΤΑΓΗ 68##
+                                             if (var11.get() and var10.get() and var38.get()and var12.get()):
+                                                 rec68_button = Button(rec_list, text=" chocolate souffle with orange",
+                                                                       fg="#3034b0",
+                                                                       font=('ComicSans', 11, 'bold'),
+                                                                       command=lambda: re68.tkraise())
+                                                 rec68_button.pack()
+                                                 lb_rec68tittle = Label(rec68, text="  chocolate souffle with orange\n\n",
+                                                                        fg="#3034b0",
+                                                                        font=('ComicSans', '30', 'bold'))
+                                                 lb_rec68tittle.pack()
+                                                 lb_rec68 = Message(rec68, fg="#3034b0",
+                                                                    font=('ComicSans', '12', 'bold'))
+                                                 lb_rec68.config(
+                                                     text="Ingredients\n 250 gr. chocolate\n 3 oranges, zest only\n 200 gr. butter\n 65 gr. sugar\n 3 large eggs\n 3 egg yolk\n 1 pinch of salt\n 1 pinch of baking powder(optional)\n 100 gr. flour for all uses\n 10 disposable or fireproof (ramicin) molds for soufflé \nPreparation\nChop the chocolate and butter and melt them in a bain-marie.Let their temperature drop a bit.\nPut the eggs, yolks and sugar, salt in the mixer and beat them until they become creamy and very frothy. \nThey should double in volume and whiten the mixture.\nAdd the melted chocolate, the zest and the flour, sifting it, to the mixture.\nGently fold with a spatula so as not to lose the volume of the eggs.\nButter and flour the molds.Equalize the mixture in 10 fireproof bowls.\nBake the chocolate soufflés in a well preheated oven at 200 °C in the air for 5-6 minutes.\nAs soon as we take the puffed soufflés out of the oven, let them stand for 1-2 minutes and serve. \nEnjoy!")
+                                                 lb_rec68.pack()
+
+                                                 rec68backbtn = Button(rec68, text="Back", fg="#3034b0",
+                                                                       command=lambda: rec_list.tkraise(),
+                                                                       font=(' ComicSans ', '10', 'bold'))
+                                                 rec68backbtn.place(y=10, x=50)
+
+                                                 ##ΣΥΝΤΑΓΗ 69##
+                                                 if (var14.get() and var55.get() and var19.get()and var58.get()):
+                                                     rec69_button = Button(rec_list, text="strawberries rice pudding",
+                                                                           fg="#3034b0",
+                                                                           font=('ComicSans', 11, 'bold'),
+                                                                           command=lambda: re69.tkraise())
+                                                     rec69_button.pack()
+                                                     lb_rec69tittle = Label(rec69, text=" strawberries rice pudding\n\n",
+                                                                            fg="#3034b0",
+                                                                            font=('ComicSans', '30', 'bold'))
+                                                     lb_rec69tittle.pack()
+                                                     lb_rec69 = Message(rec69, fg="#3034b0",
+                                                                        font=('ComicSans', '12', 'bold'))
+                                                     lb_rec69.config(
+                                                         text="Ingredients\n 150 g rice (pudding) \n 4 star anise\n 250 g frozen strawberries\n 4 tablespoons runny honey\n 4 tablespoons Greek yoghurt \\nPreparation\nPlace the rice, star anise, frozen strawberries, 3 tablespoons of honey and a tiny pinch of sea salt in a pan on a medium heat.\n Cover with 700ml of water and simmer for 25 minutes, or until thick and creamy, stirring occasionally.\n Stir through the yoghurt so it’s nice and creamy, then divide between your bowls.\nDrizzle over the remaining honey, and enjoy. Super-easy!")
+                                                     lb_rec69.pack()
+
+                                                     rec69backbtn = Button(rec69, text="Back", fg="#3034b0",
+                                                                           command=lambda: rec_list.tkraise(),
+                                                                           font=(' ComicSans ', '10', 'bold'))
+                                                     rec69backbtn.place(y=10, x=50)
